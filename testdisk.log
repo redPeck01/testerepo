@@ -1,0 +1,144 @@
+
+
+Fri Mar 24 20:05:51 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Fri Mar 24 20:05:56 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, LBA48, DCO support
+/dev/sda: size       1465149168 sectors
+/dev/sda: user_max   1465149168 sectors
+/dev/sda: dco        1465149168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop0 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - Hitachi HTS547575A9E384, S/N:J2140054EBXNGB, FW:JE4OA50A
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - ST1000LM 035-1RK172, FW:SBM3
+
+Partition table type (auto): None
+Disk /dev/sdb - 1000 GB / 931 GiB - ST1000LM 035-1RK172
+Partition table type: None
+
+Interface Advanced
+FAT32 at 0/0/1
+FAT1 : 64-238527
+FAT2 : 238528-476991
+start_rootdir : 476992 root cluster : 2
+Data : 476992-1953525055
+sectors : 1953525105
+cluster_size : 64
+no_of_cluster : 30516376 (2 - 30516377)
+fat_length 238464 calculated 238410
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: cluster=2(0x2), pos=476992
+FAT32 at 0/0/1
+Info: size boot_sector 1953525105, partition 1953525164
+FAT1 : 64-238527
+FAT2 : 238528-476991
+start_rootdir : 476992 root cluster : 2
+Data : 476992-1953525055
+sectors : 1953525105
+cluster_size : 64
+no_of_cluster : 30516376 (2 - 30516377)
+fat_length 238464 calculated 238410
+set_FAT_info: name from BS used
+   P FAT32                    0   0  1 121601  80 59 1953525164 [NO NAME]
+     FAT32, blocksize=32768, 1000 GB / 931 GiB
+Change partition type:
+   P FAT32                    0   0  1 121601  80 59 1953525164 [NO NAME]
+     FAT32, blocksize=32768, 1000 GB / 931 GiB
+
+Analyse Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63
+FAT32 at 0/0/1
+FAT1 : 64-238527
+FAT2 : 238528-476991
+start_rootdir : 476992 root cluster : 2
+Data : 476992-1953525055
+sectors : 1953525105
+cluster_size : 64
+no_of_cluster : 30516376 (2 - 30516377)
+fat_length 238464 calculated 238410
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: cluster=2(0x2), pos=476992
+FAT32 at 0/0/1
+Info: size boot_sector 1953525105, partition 1953525164
+FAT1 : 64-238527
+FAT2 : 238528-476991
+start_rootdir : 476992 root cluster : 2
+Data : 476992-1953525055
+sectors : 1953525105
+cluster_size : 64
+no_of_cluster : 30516376 (2 - 30516377)
+fat_length 238464 calculated 238410
+set_FAT_info: name from BS used
+Current partition structure:
+   P FAT32                    0   0  1 121601  80 59 1953525164 [NO NAME]
+
+search_part()
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63
+FAT32 at 0/0/1
+FAT1 : 64-238527
+FAT2 : 238528-476991
+start_rootdir : 476992 root cluster : 2
+Data : 476992-1953525055
+sectors : 1953525105
+cluster_size : 64
+no_of_cluster : 30516376 (2 - 30516377)
+fat_length 238464 calculated 238410
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: cluster=2(0x2), pos=476992
+     FAT32                    0   0  1 121601  79 63 1953525105 [NO NAME]
+     FAT32, blocksize=32768, 1000 GB / 931 GiB
+
+Results
+   P FAT32                    0   0  1 121601  79 63 1953525105 [NO NAME]
+     FAT32, blocksize=32768, 1000 GB / 931 GiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 1953525105 linear /dev/sdb 0" | dmsetup create test0
+
+
+dir_partition inode=0
+   P FAT32                    0   0  1 121601  79 63 1953525105 [NO NAME]
+     FAT32, blocksize=32768, 1000 GB / 931 GiB
+FAT: cluster=2(0x2), pos=476992
+Directory /
+       3 drwxr-xr-x     0      0         0  5-Jan-2023 14:46 Java
+   28743 drwxr-xr-x     0      0         0  5-Jan-2023 14:48 php
+X  54152 drwxr-xr-x     0      0         0 22-Mar-2023 16:38 Untitled Folder
+   54152 drwxr-xr-x     0      0         0 22-Mar-2023 16:55 cursos
+SIGHUP detected! TestDisk has been killed.
